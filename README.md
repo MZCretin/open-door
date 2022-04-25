@@ -101,7 +101,7 @@ try {
 
 我用的是平安门禁，然后打开Charles，手机上打开平安门禁小程序，点击开门，抓出链接，一气呵成。
 
-![image-20220425163136625](/Users/cretin/code_project/doc/StudyDoc/公众号文章/太懒了，所以用小爱开楼下的门禁/image/image-20220425163136625.png)
+![image-20220425163136625](./image/image-20220425163136625.png)
 
 可以看到，请求是post，链接就是url那一坨。Content-Type是json，另外还需要传json数据验证身份。
 
